@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specail Desgin</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/normlize.css">
+</head>
+
+<body>
+    <!--Start setting box-->
+    <div class="settings-box">
+        <div class="toggle-setting ">
+            <i class="fas fa-cog setting "></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li data-color="#ff9800"></li>
+                    <li data-color="DodgerBlue"></li>
+                    <li data-color="tomato"></li>
+                    <li data-color="#3cb371"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random background</h4>
+                <div class="random-background">
+                    <span class="yes" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset">Reset Options</button>
+        </div>
+    </div>
+    <!--End Setting box-->
+    <!--Start nav-->
+    <div class="nav">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltips">About us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltips">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="tooltips">Our Gallary</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltips">TinmeLine</div>
+        </div>
+        <div class="bullet" data-section=".feature">
+            <div class="tooltips">Feature</div>
+        </div>
+        <div class="bullet" data-section=".test">
+            <div class="tooltips">Testmonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltips">Contact Us</div>
+        </div>
+    </div>
+    <!--start landing page-->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Special Desgin</div>
+                <div class="links-contaienr">
+                    <ul class="links open">
+                        <li><a href="#" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallary">Gallary</a></li>
+                        <li><a href="#" data-section=".timeline">Tineline</a></li>
+                        <li><a href="#" data-section=".feature">Feature</a></li>
+                        <li><a href="#" data-section=".test">Testmonials</a></li>
+                    </ul>
+                    <div class="menu" onclick="openMenu() ">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Who are your clients trying to reach? A website designed for teenagers is going to look and work a bit differently than one designed for corporate decision-makers. Ask your client who they want to appeal to with their website right from the
+                beginning
+            </p>
+        </div>
+    </div>
+    <!--end landing page-->
+    <!--About us-->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About us</h2>
+                <p>Every company claims to have core values and some kind of differentiator that makes them different than other companies out there. But, no other company on Earth shares your exact story, or your specific reason for being in business in
+                    the first place.</p>
+            </div>
+            <div class="image-box">
+                <img src="image/52.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--End About us-->
+
+    <!--Start our Skills-->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skills-box">
+                <div class="skills-name">HTML</div>
+                <div class="skills-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">CSS</div>
+                <div class="skills-progress">
+                    <span data-progress="75%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">JavaScript</div>
+                <div class="skills-progress">
+                    <span data-progress="85%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">SASS</div>
+                <div class="skills-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">React</div>
+                <div class="skills-progress">
+                    <span data-progress="85%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-name">BootStrap</div>
+                <div class="skills-progress">
+                    <span data-progress="75%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Our Skills-->
+    <!--Our Gallery-->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="image-box">
+                <img src="image/15.jpg" alt="Image-one">
+                <img src="image/9.jpg" alt="Image Two">
+                <img src="image/10.jpg" alt="Image-Three">
+                <img src="image/12.jpg" alt="Image-Four">
+                <img src="image/13.jpg" alt="Image-Five">
+                <img src="image/6.jpg" alt="Image-Six">
+                <img src="image/8.png" alt="Image-Seven">
+                <img src="image/7.jpg" alt="Image-Eight">
+                <img src="image/1.jpg" alt="Image-Nine">
+                <img src="image/3.jpg" alt="Image-Ten">
+            </div>
+        </div>
+    </div>
+    <!--End Gallery-->
+    <!--Start Timeline-->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2020</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Ahmed Mourad </h3>
+                        <p>Our workshops are designed for new generation of Storytellers and Artists considering sharpening their skills. In Arab Film School we connect creatives communities in The Arab world together with working industry professionals
+                            teaching them the technicalities to create their own original work.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3> Mohammed Nader</h3>
+                        <p>Our workshops are designed for new generation of Storytellers and Artists considering sharpening their skills. In Arab Film School we connect creatives communities in The Arab world together with working industry professionals
+                            teaching them the technicalities to create their own original work.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2019</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Laurance Rudic</h3>
+                        <p>Our workshops are designed for new generation of Storytellers and Artists considering sharpening their skills. In Arab Film School we connect creatives communities in The Arab world together with working industry professionals
+                            teaching them the technicalities to create their own original work.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Mohammed Nader</h3>
+                        <p>Our workshops are designed for new generation of Storytellers and Artists considering sharpening their skills. In Arab Film School we connect creatives communities in The Arab world together with working industry professionals
+                            teaching them the technicalities to create their own original work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Our Gallary-->
+    <!--Start feature-->
+    <div class="feature">
+        <h2>Our Feature</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="image/20.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="feat-box">
+                <img src="image/21.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="feat-box">
+                <img src="image/22.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="feat-box">
+                <img src="image/23.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="feat-box">
+                <img src="image/24.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="feat-box">
+                <img src="image/25.png" alt="">
+                <h4>Development</h4>
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--End Feature-->
+    <!--Start test-->
+    <div class="test">
+        <div class="container">
+            <h2>Testmonials</h2>
+            <div class="ts-box">
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+                <div class="person-info">
+                    <img src="image/111.jpg">
+                    <h4>Mario Maruffi</h4>
+                    <p>CEB at comany</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+                <div class="person-info">
+                    <img src="image/112.jpg">
+                    <h4>Ubiratan Silva</h4>
+                    <p>SEO at comany</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>An application designed to make some fun beats on your phone or desktop by tapping the colors. make some fun beats on your phone or desktop by </p>
+                <div class="person-info">
+                    <img src="image/113.jpg">
+                    <h4> Rodrigo Lemes</h4>
+                    <p>Jest at comany</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--End test-->
+    <!--Start Contact Us-->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="number" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--End Contract-->
+    <!--Start Footer-->
+    <div class="footer">Created With Love By Eslam Hamada</div>
+    <!--Start scroll-->
+    <button id="up"><i class="fas fa-angle-double-up"></i></button>
+    <!--End scroll-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
